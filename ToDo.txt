@@ -1,0 +1,10 @@
+https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
+https://codeforces.com/contest/208/problem/E
+https://leetcode.com/problems/design-hashmap/discuss?currentPage=1&orderBy=most_votes&query=
+https://leetcode.com/problems/number-of-longest-increasing-subsequence/   segmanted tree approach learn
+https://leetcode.com/problems/russian-doll-envelopes/
+https://leetcode.com/discuss/interview-question/1098600/frequently-asked-mcqs-on-dscndbmsossystem-design
+geometry cses
+https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/discuss/453880/C%2B%2B-0ms-BFS-track-remaining-k-and-take-a-shortcut
+https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/discuss/1140523/Python-NP-Problem-With-Optimization-(32ms)
+
