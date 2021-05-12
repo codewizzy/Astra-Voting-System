@@ -1,0 +1,606 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:#f0a564;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+    font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.fullDiv {
+  height: 100%;
+  width: 100%;
+}
+
+.testClass {
+  height : 100vh; 
+  width : 100%;
+  background: #f0a564;
+}
+
+.loginCard:hover {
+  height : 40vh; 
+  width : 40%;
+  background: #aa9c9c;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+  transition: ease .5s;
+}
+
+.loginCard {
+  height:300px;
+  width:300px;
+  padding-top: 15px;
+  background: #aa9c9c !important; 
+}
+
+.RegisterCard{
+  background-color: #aa9c9c !important;
+  height:500px;
+  width:475px;
+  padding: 15px;
+}
+
+/* .RegisterCard:hover{
+  background-color: #aa9c9c !important;
+  height:500px;
+  width:475px;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0,0,0,1);
+  transition: ease .5s;
+} */
+
+.DashboardCard{
+  height: 500px;
+  width: 750px;
+  background-color : #f0a564;
+}
+
+.ElectionRegister{
+  height: 450px;
+  width: 700px;
+  background-color :#4B4343;
+  
+  padding-left: 8px;
+  padding-top: 10px;
+}
+
+.ElectionRegister:hover{
+  height: 450px;
+  width: 700px;
+  background-color :#f0a364;
+  padding-left: 8px;
+  padding-top: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+  transition: ease 1s;
+}
+
+.formButton {
+  background-color: #4B4343 !important;
+  margin: 10px;
+}
+
+.DateNTime{
+  width : 150px;
+}
+
+.DateNTimeCenter{
+  padding-left : 25px;
+}
+
+.RequestCard{
+  height: 200px;
+  width: 165px;
+  margin: 5px;
+  padding: 2px;
+  box-shadow: 0px 0px 15px  rgba(0,0,0,0.5) !important;
+}
+
+.RequestCardText2{
+  font-size: 0.7em !important;
+}
+
+.personIcon{
+  font-size: 50px !important;
+}
+
+.personIcon2{
+  font-size: 60px !important;
+}
+
+.ABIcon{
+  font-size: 60px !important;
+}
+
+.RequestCardText3{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.RequestCardText4{
+  font-size: 0.7em !important;
+}
+
+.RegisterCard2{
+  height:500px;
+  width:700px;
+  padding: 15px;
+  
+  background-color: #aa9c9c!important;
+}
+
+.RegisterCard2:hover{
+  height:500px;
+  width:700px;
+  padding: 15px;
+  background-color: #aaa29c!important;
+  box-shadow: 0px 0px 40px rgba(0,0,0,1);
+  transition: ease .5s;
+}
+
+.ElectionRequestForm{
+  height: 450px;
+  width: 550px;
+  position: absolute; 
+  top: 30%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}
+
+.ElectionSection{
+ width: 230px;
+ height: 280px;
+ background: #f0a564 !important;
+ margin-left:16px;
+ margin-top: 10px;
+ padding: 5px; 
+ 
+}
+
+.CandidateSection{
+width: 230px;
+height: 280px;
+background: #f0a564 !important;
+margin-left: 16px;
+margin-top: 10px;
+padding: 5px;
+}
+
+.ElectionFormHeader{
+  font-size: 1.4em !important;
+  margin: 3px !important;
+}
+
+.AadhaarCard{
+  height:225px;
+  width:300px;
+  padding-top: 15px;
+}
+
+.OTPCard{
+  height:250px;
+  width:500px;
+  padding-top: 15px;
+}
+
+.VoterIDCard{
+  height:200px;
+  width:300px;
+  padding-top: 15px;
+}
+
+.VotingArenaCard{
+  height: 600px;
+  width: 800px;
+  background: #f0a564; 
+}
+
+.VoterCard{
+  height: 170px;
+  width: 250px;
+  padding-top: 15px; 
+}
+
+.VoteDoneBtn{
+  background-color: red !important;
+}
+
+.touchIcon{
+  background: red !important;
+}
+
+.VotingArenaCardInner{
+  height: 500px;
+  width: 95%;
+  padding-top: 15px; 
+  margin-top: 10px;
+  background-color : #f0a564 !important;
+}
+
+.personIcon1{
+  font-size: 80px !important;
+}
+
+.ElectedCard{
+  height: 180px;
+  width: 130px;
+  margin: 5px;
+  padding: 2px;
+  box-shadow: 0px 0px 15px  rgba(0,0,0,0.5) !important;
+}
+
+.SelectedElectedCard{
+  height: 180px;
+  width: 130px;
+  margin: 5px;
+  padding: 2px;
+  box-shadow: 0px 0px 15px  rgba(0,0,0,0.5) !important;
+  background: RED !important;
+}
+
+.cardRadio{
+  margin-top: -30px;
+}
+
+.HomeIcon{
+  color : #e07313;
+  font-size: 35px !important;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.HomeIcon:hover{
+  color : #e07313;
+  font-size: 35px !important;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+  transition: ease .5s;
+}
+
+.electionCardDiv{
+  height: 300px;
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background : #aaa29c;
+  color: #aaa29c !important;
+  padding: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+  cursor: pointer !important;
+}
+
+.electionCardDiv:hover {
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+  height: 330px;
+  width: 330px;
+  cursor: pointer !important;
+  transition: ease 0.5s;
+}
+
+/* this is for slider */
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+  background: #419be0;
+}
+
+/* h3 {
+  background: blue;
+  color: #fff;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+} */
+/* .variable-width .slick-slide p {
+  background: blue;
+  height: 200px;
+  color: #fff;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+} */
+.center .slick-center h3 {
+  color: #f0a564;
+  opacity: 1;
+  transform: scale(1.08);
+}
+.center h3 {
+  opacity: 0.8;
+  transition: all 300ms ease;
+}
+.content {
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+}
+.slick-slide .image {
+  padding: 10px;
+}
+.slick-slide img {
+  border: 5px solid #4B4343;
+  display: block;
+  margin: auto;
+}
+.slick-slide img.slick-loading {
+  border: 0;
+}
+.slick-slider {
+  margin: 30px auto 50px;
+}
+.slick-dots {
+  margin-left: 0;
+  color : #f0a564;
+}
+.slick-thumb {
+  bottom: -45px;
+}
+.slick-thumb li {
+  width: 60px;
+  height: 45px;
+}
+.slick-thumb li img {
+  filter: grayscale(100%);
+}
+.slick-thumb li.slick-active img {
+  filter: grayscale(0%);
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 24px;
+  }
+  .center {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .center .slick-center h3 {
+    color: #f0a564;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .center h3 {
+    opacity: 0.8;
+    transform: scale(0.95);
+    transition: all 300ms ease;
+  }
+}
+
+
+.slick-vertical .slick-slide {
+  height: 180px;
+}
+.slick-arrow {
+  background-color: #fff;
+  height: 50px;
+  width: 50px; 
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+  border-radius: 50%; 
+  color: black; 
+}
+.slick-arrow:hover {
+  background-color: #212121;
+  border : 3px solid #f0a364;
+  transition: ease .5s;
+}
+
+.slick-prev {
+  z-index: 100;
+  left: 20px !important;
+}
+.slick-next {
+  z-index: 100;
+  right: 20px !important;
+}
+
+/* end */
+
+.LiveElectionCards{
+  position: relative;
+  top: 150px;
+  left: 0;
+  height: 400px;
+  width: 100%;
+}
+
+.CRElectionCards{
+  position: relative;
+  top: 400px;
+  left: 0;
+  height: 400px;
+  width: 100%;
+}
+
+.OverElectionCards{
+  position: relative;
+  top: 650px;
+  left: 0;
+  height: 400px;
+  width: 100%;
+}
+
+.AllElectionCards{
+  position: relative;
+  top: 900px;
+  left: 0;
+  height: 400px;
+  width: 100%;
+}
+
+/*Election card */
+.ToE{
+  color: #4B4343 !important;
+  font-family: Abel !important;
+}
+
+.constituency{
+  color : #4B4343 !important;
+  margin: -5px !important;
+  font-family: Abel !important;
+}
+
+.organizer{
+  color : #4B4343 !important;
+  text-align: left !important;
+  margin:5px !important;
+  margin-top: 30px !important;
+  font-family: Abel !important;
+}
+
+.ESD{
+  color : #4B4343 !important;
+  text-align: left !important;
+  margin:5px !important;
+  font-family: Abel !important;
+  /* margin-top: 10px !important; */
+}
+
+.EED{
+  color : #4B4343 !important;
+  text-align: left !important;
+  margin:5px !important;
+  font-family: Abel !important;
+  /* margin-top: 10px !important; */
+}
+
+.RD{
+  color : #4B4343 !important;
+  text-align: left !important;
+  margin:5px !important;
+  font-family: Abel !important;
+  /* margin-top: 10px !important; */
+}
+
+.TV{
+  color : #4B4343 !important;
+  text-align: left !important;
+  margin:5px !important;
+  font-family: Abel !important;
+  /* margin-top: 10px !important; */
+}
+
+.CandidateCardDiv{
+  background:#aaa29c ;
+  height: 400px;
+  position: absolute !important;
+  top:50%;
+  transform: translateY(-20%);
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+  border-radius: 5px; 
+  padding: 0px !important;
+}
+
+.candidates{
+  font-weight: 500!important;
+  margin: -5px !important;
+  padding: 0px !important;
+}
+
+.ElectionBtn{
+  margin: 5px !important;
+  margin-top: 20px !important;
+  border-color: #4B4343 !important;
+  color:#4B4343 !important;
+  font-family: Abel !important;
+  letter-spacing: 1px;
+}
+
+.ElectionBtn:hover{
+  background: #4B4343 !important;
+  border: 0;
+  color:#f0a564 !important;
+  transition: ease 0.5s;
+}
+
+.testClass{
+  background: #f0a364 !important;
+}
+
+.ElectionHeader{
+  background:#4B4343 !important;
+  color : #000 !important;
+  height: 50px;
+  width: 70%;
+  padding:3px;
+  position: relative;
+  left:50%;
+  transform:translateX(-50%);
+  margin-top: 30px;
+}
+
+.ResultBody{
+  background:transparent !important;
+  color : #000 !important;
+  height: inherit;
+  width: 90% !important;
+  padding:10px;
+  position: relative;
+  left:50%;
+  transform:translateX(-55%);
+  margin-top: 50px;
+}
+
+.ResultCard{
+  height: 150px;
+  width: 150px;
+  margin: 3px;
+}
+
+.ResultCardWin{
+  height: 150px;
+  width: 150px;
+  border: 5px solid red !important;
+  margin : 3px;
+}
+
+/* .PartyName{
+  /* margin-top:5px !important; }  */
+
+
+.PartyVote{
+  font-size: 4em !important;
+}
+
+.ConstituencyResult{
+  width: 50% !important;
+  position: relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.CRGrid{
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+
+.ResultBack{
+  background : #f0a564 !important;
+  color : #4B4343 !important;
+  width: 100%;
+  min-height: 100vh;
+}

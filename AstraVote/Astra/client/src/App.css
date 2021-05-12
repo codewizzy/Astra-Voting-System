@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.HomePageDiv{
+  height: 100vh;
+  width: 100%;
+}
+
+.LandingText{
+  height: 40vh;
+  width: 450px;
+  background: url('./Asset/1x/Logo_1.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  transform: translate(-70%, -40%);
+}
+
+.IndianEmblem{
+  height: 80vh;
+  width: 500px;
+  background: url('./Asset/1x/indianEmblem.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 45%;
+  left: 84%;
+  transform: translate(-70%, -40%);
+}
+
+.LandingBtnDiv{
+  position: relative;
+  left: 15%;
+  top: 18%;
+  width: 300px;
+}
+
+.LandingBtn{
+  height: 20vh;
+  width: 100%;
+  padding : 10px;
+  border: 4px solid rgb(24, 23, 23);
+  border-radius: 10px;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 30px;
+  margin:10px !important;                                  
+  color: rgb(75, 70, 70) !important;
+}
+
+
+.LandingBtn:hover {
+  border: 0px;
+  background: #4B4343;                                
+  color: #c08517 !important;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+  transition: ease .5s;
+}
+
+.LadingPageDown{
+  height: 100vh;
+  width: 100%;
+}
+
+.loaderDiv{
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0,0,0,0.2);
+  transition: ease .5s;
+  z-index:1000;
+}
+
+.loaderDiv1{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top:0;
+  left:0;
+  background: rgba(0,0,0,0.2);
+  transition: ease .5s;
+  z-index:1000;
+}
+
+.loader{
+  height: 100px !important;
+  width: 100px !important;
+  color : #4B4343 !important;
+}
+
+.LiveElectionHeading{
+  height: 100px;
+  width: 100%;
+  background: url('./Asset/1x/Asset_9.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.LiveElection{
+  height: 500px;
+  width: 100%;
+  /* border:0.5px solid purple; */
+}
+.LiveElect{
+  height: 500px;
+  width: 100%;
+  /* border:0.5px solid purple; */
+}
+
+.ElectionCard{
+  color : #aaa29c !important;
+  background: #25231d !important;
+  height: 280px;
+  width: 230px;
+  padding:5px ;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.8) !important; 
+}
+
+.CRElectionHeading{
+  height: 100px;
+  width: 100%;
+  background: url('./Asset/1x/Asset_10.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 250px;
+  background-position: 100% 100%;
+} 
+
+.OverElectionHeading{
+  height: 100px;
+  width: 100%;
+  background: url('./Asset/1x/Asset_11.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 500px;
+  background-position: 0% 100%;
+}
+
+.AllElectionHeading{
+  height: 100px;
+  width: 100%;
+  background: url('./Asset/1x/Asset_15.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 750px;
+  background-position: 100% 100%;
+}
+
+/* .Footer{
+  height: 100px;
+  width: 100%;
+  background: url('./Asset/1x/Asset_14.png');
+  background-repeat: no-repeat;
+  position: relative;
+  top: 1000px;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+} */
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
